@@ -49,16 +49,16 @@ int main()
             scanf("%d",&n);
             if(n==55)
             {
-                printf("You got that and on the last try!! Incredible");
+                printf("You got that and on the last try!! Incredible\n");
                
             }
             else if(n>55||n<55)
             {
-                printf("You got that incorrect and you're out of tries");
+                printf("You got that incorrect and you're out of tries\n");
             }
             else
             {
-                printf("Invalid input encountered");
+                printf("Invalid input encountered\n");
             }
 
         }
@@ -67,11 +67,11 @@ int main()
     }
     else if(t>10)
     {
-        printf("Try again with fewer tries for an exciting game");
+        printf("Try again with fewer tries for an exciting game\n");
     }
     else
     {
-        printf("Invalid input encountered!");
+        printf("Invalid input encountered!\n");
     }
     return 0;
 }
