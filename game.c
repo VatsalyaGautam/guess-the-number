@@ -18,24 +18,24 @@ int main()
             }
             else if(n>55&&n<65)
             {
-                printf("You're real close!try a lower number");
+                printf("You're real close!try a lower number\n");
             }
             else if(n<55&&n>45)
             {
-                printf("You're real close!try a higher number");
+                printf("You're real close!try a higher number\n");
 
             }
             else if(n>55)
             {
-                printf("You're far off! Try a lower number");
+                printf("You're far off! Try a lower number\n");
             }
             else if(n<55)
             {
-                printf("You're far off! Try a higher number");
+                printf("You're far off! Try a higher number\n");
             }
             else
             {
-                printf("Invalid input encountered");
+                printf("Invalid input encountered\n");
                 break;
             }
             i++;
