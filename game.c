@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main(){
     int t,i=0,n;
     printf("Enter the number of tries (maximum tries= 10) ::");
     scanf("%d",&t);
